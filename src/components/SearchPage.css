@@ -1,0 +1,89 @@
+.searchpage {
+  cursor: pointer;
+}
+.searchpage-header {
+  border-bottom: 1px solid lightgrey;
+  margin-top: 25px;
+}
+.header {
+  display: flex;
+  margin-left: -620px;
+}
+.searchpage-logo {
+  object-fit: contain;
+  height: 80px;
+  margin-right: -620px;
+  margin-top: -5px;
+}
+.settings {
+  height: 30px;
+  width: 30px;
+  margin-left: 500px;
+  margin-right: 15px;
+  margin-top: 10px;
+  color: #5f6368;
+}
+.apps {
+  height: 30px;
+  width: 30px;
+  margin-top: 10px;
+  color: #5f6368;
+}
+.searchpage-options {
+  display: flex;
+  margin-left: 180px;
+  margin-bottom: 25px;
+}
+
+.searchpage-options a {
+  text-decoration: inherit;
+  color: #5f6368;
+  font-size: 15px;
+}
+
+.searchpage-options a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+.searchpage-option {
+  height: 21px;
+  display: flex;
+  align-items: center;
+}
+
+.searchpage-optionright {
+  margin-left: 60px;
+}
+.icons {
+  margin-right: 5px;
+  margin-left: 15px;
+}
+.result-count {
+  margin-left: 200px;
+  margin-bottom: 30px;
+  color: #70757a;
+}
+.results {
+  margin-left: 200px;
+  max-width:700px;
+}
+.link {
+  text-decoration: none;
+  color: rgb(92, 92, 92);
+}
+.title {
+  text-decoration: none;
+}
+.title h2 {
+  margin: auto;
+}
+h2 {
+  font-weight: 400;
+  color: #1a0dab;
+}
+.title:hover {
+  text-decoration: underline;
+}
+.content {
+  margin-top: 5px;
+}
