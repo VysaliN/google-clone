@@ -19,11 +19,6 @@ const useGoogleSearch = (term) => {
     fetchData();
   }, [term]);
   return { data };
-  {
-    /* <script async src="https://cse.google.com/cse.js?cx=b7648ede1a4374011">
-        </script>
-        <div class="gcse-search"></div> */
-  }
 };
 
 export default useGoogleSearch;
