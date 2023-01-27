@@ -23,7 +23,7 @@
   padding: 10px;
   font-size: large;
 }
-::placeholder{
+::placeholder {
   font-size: medium;
 }
 
@@ -39,7 +39,7 @@
 
 .search-btns Button {
   background-color: rgb(252, 247, 247);
-  margin-left:30px;
+  margin-left: 30px;
   color: black;
   text-transform: inherit;
   border: 1px solid rgb(231, 228, 228);

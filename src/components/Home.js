@@ -17,7 +17,7 @@ const Home = () => {
         <div className="home-headerright">
           <Link to="/gmail">Gmail</Link>
           <Link to="/images">Images</Link>
-          <MdApps className="app" title="Google apps"/>
+          <MdApps className="app" title="Google apps" />
           <HiUserCircle className="user" title="Google Account" />
         </div>
       </div>

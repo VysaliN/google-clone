@@ -39,27 +39,27 @@ const SearchPage = () => {
 
         <div className="searchpage-options">
           <div className="searchpage-option">
-            <MdSearch className="icons"/>
-            <Link to="/all" >All</Link>
+            <MdSearch className="icons" />
+            <Link to="/all">All</Link>
           </div>
           <div className="searchpage-option">
-            <RiVideoLine className="icons"/>
+            <RiVideoLine className="icons" />
             <Link to="/news">Videos</Link>
           </div>
           <div className="searchpage-option">
-            <MdImage className="icons"/>
+            <MdImage className="icons" />
             <Link to="/images">Images</Link>
           </div>
           <div className="searchpage-option">
-            <BiMap className="icons"/>
+            <BiMap className="icons" />
             <Link to="/maps">Maps</Link>
           </div>
           <div className="searchpage-option">
-            <CiShoppingTag className="icons"/>
+            <CiShoppingTag className="icons" />
             <Link to="/shopping">Shopping</Link>
           </div>
           <div className="searchpage-option">
-            <MdOutlineMoreVert className="icons"/>
+            <MdOutlineMoreVert className="icons" />
             <Link to="/more">More</Link>
           </div>
           <div className="searchpage-optionright">

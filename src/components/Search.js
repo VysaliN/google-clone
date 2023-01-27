@@ -24,7 +24,7 @@ const Search = ({ hideButtons }) => {
   return (
     <form className="search">
       <div className="search-input">
-        <MdSearch className="search-btn" onClick={searching} type="submit"/>
+        <MdSearch className="search-btn" onClick={searching} type="submit" />
         <input
           className="input"
           placeholder="Search Google or type a URL"
